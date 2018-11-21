@@ -1,5 +1,5 @@
 
-Note: user should have proper read/write/execute permissions on files and folders.
+Praking lot code
 
 # How to build application:
 	1. unzip parking-lot.zip
@@ -22,6 +22,8 @@ Note: user should have proper read/write/execute permissions on files and folder
 # For eclipse users, follow below steps:
 	1. import project as maven project from git or local directory and build it use `mvn clean install`
 	2. ParkingSystem.java is main class file to debug/run 
+
 	
-# For reffrence file format sample available in src/test/resources/sample_parking_lot_file_inputs.txt
+# For reffrence file format sample available in "src/test/resources/sample_parking_lot_file_inputs.txt"
 	
+## Note: user should have proper read/write/execute permissions on files and folders.	
