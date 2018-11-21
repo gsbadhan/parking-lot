@@ -1,5 +1,6 @@
 
-Praking lot code
+## Praking lot code
+
 
 # How to build application:
 	1. unzip parking-lot.zip
@@ -24,6 +25,6 @@ Praking lot code
 	2. ParkingSystem.java is main class file to debug/run 
 
 	
-# For reffrence file format sample available in "src/test/resources/sample_parking_lot_file_inputs.txt"
+# sample file available in "src/test/resources/sample_parking_lot_file_inputs.txt"
 	
 ## Note: user should have proper read/write/execute permissions on files and folders.	
