@@ -27,16 +27,20 @@ public class ParkingSystem {
 
 	public static void main(String[] args) {
 		defaultInit();
-
-		@SuppressWarnings("resource")
-		Scanner scanner = new Scanner(System.in);
-		while (true) {
-			System.out.println("\nEnter option:");
-			String[] data = validateInput(scanner.nextLine());
-			if (data[0].equals(Commands.FILE)) {
-				fileProcessing(data);
-			} else {
-				perfomAction(data);
+		if (args.length > 0) {
+			String[] data = { Commands.FILE, args[0] };
+			fileProcessing(data);
+		} else {
+			@SuppressWarnings("resource")
+			Scanner scanner = new Scanner(System.in);
+			while (true) {
+				System.out.println("\nEnter option:");
+				String[] data = validateInput(scanner.nextLine());
+				if (data[0].equals(Commands.FILE)) {
+					fileProcessing(data);
+				} else {
+					perfomAction(data);
+				}
 			}
 		}
 	}

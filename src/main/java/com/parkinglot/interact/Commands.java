@@ -21,6 +21,6 @@ public final class Commands {
 	public static final String SLOT_NUMBERS_FOR_CARS_WITH_COLOUR = "slot_numbers_for_cars_with_colour";
 	public static final String SLOT_NUMBER_FOR_REGISTRATION_NUMBER = "slot_number_for_registration_number";
 
-	public static final String INFO = "commands help, input should be space seprated: \n* file <file path> \n* create_parking_lot <number> \n* park <plate number> <color> \n* leave <plate number> <color> \n* registration_numbers_for_cars_with_colour <color> \n* slot_numbers_for_cars_with_colour <color> \n* slot_number_for_registration_number <plate number>";
+	public static final String INFO = "commands help, input should be space seprated: \n* file <file path> \n* create_parking_lot <number> \n* park <plate number> <color> \n* leave <plate number> <color> \n* registration_numbers_for_cars_with_colour <color> \n* slot_numbers_for_cars_with_colour <color> \n* slot_number_for_registration_number <plate number> \n* exit \n* help";
 
 }
