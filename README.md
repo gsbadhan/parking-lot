@@ -3,13 +3,12 @@
 
 
 # How to build application:
-	1. unzip parking-lot.zip
-	2. go to `parking-lot` directory 
-	3. execute `bin/setup.sh`
+	1. go to `parking-lot` directory 
+	2. execute `bin/setup.sh` or `mvn clean install`
 	
 # How to run application:
 	1. go to `parking-lot` directory
- 	2. execute `bin/parking_lot.sh`
+ 	2. execute `bin/parking_lot.sh` or `java -jar target/parking-lot-jar-with-dependencies.jar`
  	
 # How to run application with file:
 	1. go to parking-lot/ directory
